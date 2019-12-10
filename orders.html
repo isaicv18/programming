@@ -1,0 +1,340 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta lang="en-us" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Northwind Orders - Customers</title>
+	<link href="/Content/css?v=oSMly_SvQCldLhf6dUuSdnzWGDMIDBrEFKGqAzbSAB41" rel="stylesheet"/>
+
+	<script src="/bundles/modernizr?v=wBEWDufH_8Md-Pbioxomt90vm6tJN2Pyy9u9zHtWsPo1"></script>
+
+</head>
+<body>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/">Northwind Orders</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="/">Home</a></li>
+					
+					<li><a href="/Customers">Customers</a></li>
+					<li><a href="/Employees">Employees</a></li>
+					<li><a href="/Orders">Orders</a></li>
+					<li><a href="/Products">Products</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container body-content">
+		
+<h2>Customers</h2>
+
+<p>
+	<a href="/Customers/Create">Add New Customer</a>
+</p>
+<table id="customers" class="table">
+	<tr>
+		<th>Company</th>
+		<th>Contact Name</th>
+		<th>JobTitle</th>
+		<th>Phone</th>
+		<th>City</th>
+		<th>Orders</th>
+		<th>Value</th>
+	</tr>
+
+		<tr>
+			<td><a href="/Customers/Details/1">Company A</a></td>
+			<td>Bedecs, Anna Katarina</td>
+			<td>Owner</td>
+			<td>(123)555-0100</td>
+			<td>Seattle</td>
+			<td>2</td>
+			<td>$2,410.75</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/2">Company B</a></td>
+			<td>Gratacos Solsona, Antonio</td>
+			<td>Owner</td>
+			<td>(123)555-0100</td>
+			<td>Boston</td>
+			<td>1</td>
+			<td>$0.00</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/3">Company C</a></td>
+			<td>Axen, Thomas</td>
+			<td>Purchasing Representative</td>
+			<td>(123)555-0100</td>
+			<td>Los Angeles</td>
+			<td>3</td>
+			<td>$2,550.00</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/4">Company D</a></td>
+			<td>Lee, Christina</td>
+			<td>Purchasing Manager</td>
+			<td>(123)555-0100</td>
+			<td>New York</td>
+			<td>5</td>
+			<td>$4,949.00</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/5">Company E</a></td>
+			<td>O’Donnell, Martin</td>
+			<td>Owner</td>
+			<td>(123)555-0100</td>
+			<td>Minneapolis</td>
+			<td>0</td>
+			<td>$0.00</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/6">Company F</a></td>
+			<td>P&#233;rez-Olaeta, Francisco</td>
+			<td>Purchasing Manager</td>
+			<td>(123)555-0100</td>
+			<td>Milwaukee</td>
+			<td>6</td>
+			<td>$8,007.50</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/7">Company G</a></td>
+			<td>Xie, Ming-Yang</td>
+			<td>Owner</td>
+			<td>(123)555-0100</td>
+			<td>Boise</td>
+			<td>2</td>
+			<td>$13,800.00</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/8">Company H</a></td>
+			<td>Andersen, Elizabeth</td>
+			<td>Purchasing Representative</td>
+			<td>(123)555-0100</td>
+			<td>Portland</td>
+			<td>6</td>
+			<td>$4,683.00</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/9">Company I</a></td>
+			<td>Mortensen, Sven</td>
+			<td>Purchasing Manager</td>
+			<td>(123)555-0100</td>
+			<td>Salt Lake City</td>
+			<td>2</td>
+			<td>$3,786.50</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/10">Company J</a></td>
+			<td>Wacker, Roland</td>
+			<td>Purchasing Manager</td>
+			<td>(123)555-0100</td>
+			<td>Chicago</td>
+			<td>4</td>
+			<td>$1,412.50</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/11">Company K</a></td>
+			<td>Krschne, Peter</td>
+			<td>Purchasing Manager</td>
+			<td>(123)555-0100</td>
+			<td>Miami</td>
+			<td>2</td>
+			<td>$1,019.50</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/12">Company L</a></td>
+			<td>Edwards, John</td>
+			<td>Purchasing Manager</td>
+			<td>(123)555-0100</td>
+			<td>Las Vegas</td>
+			<td>2</td>
+			<td>$1,190.00</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/13">Company M</a></td>
+			<td>Ludick, Andre</td>
+			<td>Purchasing Representative</td>
+			<td>(123)555-0100</td>
+			<td>Memphis</td>
+			<td>0</td>
+			<td>$0.00</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/14">Company N</a></td>
+			<td>Grilo, Carlos</td>
+			<td>Purchasing Representative</td>
+			<td>(123)555-0100</td>
+			<td>Denver</td>
+			<td>0</td>
+			<td>$0.00</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/15">Company O</a></td>
+			<td>Kupkova, Helena</td>
+			<td>Purchasing Manager</td>
+			<td>(123)555-0100</td>
+			<td>Honolulu</td>
+			<td>0</td>
+			<td>$0.00</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/16">Company P</a></td>
+			<td>Goldschmidt, Daniel</td>
+			<td>Purchasing Representative</td>
+			<td>(123)555-0100</td>
+			<td>San Francisco</td>
+			<td>0</td>
+			<td>$0.00</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/17">Company Q</a></td>
+			<td>Bagel, Jean Philippe</td>
+			<td>Owner</td>
+			<td>(123)555-0100</td>
+			<td>Seattle</td>
+			<td>0</td>
+			<td>$0.00</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/18">Company R</a></td>
+			<td>Autier Miconi, Catherine</td>
+			<td>Purchasing Representative</td>
+			<td>(123)555-0100</td>
+			<td>Boston</td>
+			<td>0</td>
+			<td>$0.00</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/19">Company S</a></td>
+			<td>Eggerer, Alexander</td>
+			<td>Accounting Assistant</td>
+			<td>(123)555-0100</td>
+			<td>Los Angelas</td>
+			<td>0</td>
+			<td>$0.00</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/20">Company T</a></td>
+			<td>Li, George</td>
+			<td>Purchasing Manager</td>
+			<td>(123)555-0100</td>
+			<td>New York</td>
+			<td>0</td>
+			<td>$0.00</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/21">Company U</a></td>
+			<td>Tham, Bernard</td>
+			<td>Accounting Manager</td>
+			<td>(123)555-0100</td>
+			<td>Minneapolis</td>
+			<td>0</td>
+			<td>$0.00</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/22">Company V</a></td>
+			<td>Ramos, Luciana</td>
+			<td>Purchasing Assistant</td>
+			<td>(123)555-0100</td>
+			<td>Milwaukee</td>
+			<td>0</td>
+			<td>$0.00</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/23">Company W</a></td>
+			<td>Entin, Michael</td>
+			<td>Purchasing Manager</td>
+			<td>(123)555-0100</td>
+			<td>Portland</td>
+			<td>0</td>
+			<td>$0.00</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/24">Company X</a></td>
+			<td>Hasselberg, Jonas</td>
+			<td>Owner</td>
+			<td>(123)555-0100</td>
+			<td>Salt Lake City</td>
+			<td>0</td>
+			<td>$0.00</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/25">Company Y</a></td>
+			<td>Rodman, John</td>
+			<td>Purchasing Manager</td>
+			<td>(123)555-0100</td>
+			<td>Chicago</td>
+			<td>2</td>
+			<td>$860.00</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/26">Company Z</a></td>
+			<td>Liu, Run</td>
+			<td>Accounting Assistant</td>
+			<td>(123)555-0100</td>
+			<td>Miami</td>
+			<td>2</td>
+			<td>$3,625.25</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/27">Company AA</a></td>
+			<td>Toh, Karen</td>
+			<td>Purchasing Manager</td>
+			<td>(123)555-0100</td>
+			<td>Las Vegas</td>
+			<td>2</td>
+			<td>$14,105.00</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/28">Company BB</a></td>
+			<td>Raghav, Amritansh</td>
+			<td>Purchasing Manager</td>
+			<td>(123)555-0100</td>
+			<td>Memphis</td>
+			<td>4</td>
+			<td>$15,432.50</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/29">Company CC</a></td>
+			<td>Lee, Soo Jung</td>
+			<td>Purchasing Manager</td>
+			<td>(123)555-0100</td>
+			<td>Denver</td>
+			<td>4</td>
+			<td>$2,905.50</td>
+		</tr>
+		<tr>
+			<td><a href="/Customers/Details/30">Dawson Butte Software</a></td>
+			<td>Young, George</td>
+			<td>President</td>
+			<td>(123) 456-7890</td>
+			<td>Castle Rock</td>
+			<td>1</td>
+			<td>$3,250.00</td>
+		</tr>
+
+</table>
+
+		<hr />
+		<footer>
+			<p>&copy; 2019 - Northwind Orders</p>
+		</footer>
+	</div>
+
+	<script src="/bundles/jquery?v=yMmPM1TxecYcoWtCWW3jYgH0fr9kiAasOfb-W5I001A1"></script>
+
+	<script src="/bundles/bootstrap?v=y06_79Ad8PBEWhAqU8oC7bf_QdxhPF_kt4ClTo6bnGw1"></script>
+
+	
+</body>
+</html>
